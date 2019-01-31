@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: com.capgemini.tasklist.general.common.base.PermissionCheckTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.135 s <<< FAILURE! - in com.capgemini.tasklist.general.common.base.PermissionCheckTest
+permissionCheckAnnotationPresent(com.capgemini.tasklist.general.common.base.PermissionCheckTest)  Time elapsed: 1.135 s  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 13 assertions failed:
+1) [Method findCollectionListByIdTaskList in Class UcFindCollectionListImpl is missing access control] expected:<[tru]e> but was:<[fals]e>
+at PermissionCheckTest.permissionCheckAnnotationPresent(PermissionCheckTest.java:60) expected:<[tru]e> but was:<[fals]e>
+2) [Method findCollectionListCto in Class UcFindCollectionListImpl is missing access control] expected:<[tru]e> but was:<[fals]e>
+at PermissionCheckTest.permissionCheckAnnotationPresent(PermissionCheckTest.java:60) expected:<[tru]e> but was:<[fals]e>
+3) [Method findCollectionListCtos in Class UcFindCollectionListImpl is missing access control] expected:<[tru]e> but was:<[fals]e>
+at PermissionCheckTest.permissionCheckAnnotationPresent(PermissionCheckTest.java:60) expected:<[tru]e> but was:<[fals]e>
+4) [Method findFileItemCtos in Class UcFindFileItemImpl is missing access control] expected:<[tru]e> but was:<[fals]e>
+at PermissionCheckTest.permissionCheckAnnotationPresent(PermissionCheckTest.java:60) expected:<[tru]e> but was:<[fals]e>
+5) [Method findFileItemCto in Class UcFindFileItemImpl is missing access control] expected:<[tru]e> but was:<[fals]e>
+at PermissionCheckTest.permissionCheckAnnotationPresent(PermissionCheckTest.java:60) expected:<[tru]e> but was:<[fals]e>
+6) [Method findItemByIdList in Class UcFindItemImpl is missing access control] expected:<[tru]e> but was:<[fals]e>
+at PermissionCheckTest.permissionCheckAnnotationPresent(PermissionCheckTest.java:60) expected:<[tru]e> but was:<[fals]e>
+7) [Method findItemCto in Class UcFindItemImpl is missing access control] expected:<[tru]e> but was:<[fals]e>
+at PermissionCheckTest.permissionCheckAnnotationPresent(PermissionCheckTest.java:60) expected:<[tru]e> but was:<[fals]e>
+8) [Method findItemCtos in Class UcFindItemImpl is missing access control] expected:<[tru]e> but was:<[fals]e>
+at PermissionCheckTest.permissionCheckAnnotationPresent(PermissionCheckTest.java:60) expected:<[tru]e> but was:<[fals]e>
+9) [Method findTextItemCto in Class UcFindTextItemImpl is missing access control] expected:<[tru]e> but was:<[fals]e>
+at PermissionCheckTest.permissionCheckAnnotationPresent(PermissionCheckTest.java:60) expected:<[tru]e> but was:<[fals]e>
+10) [Method findTextItemCtos in Class UcFindTextItemImpl is missing access control] expected:<[tru]e> but was:<[fals]e>
+at PermissionCheckTest.permissionCheckAnnotationPresent(PermissionCheckTest.java:60) expected:<[tru]e> but was:<[fals]e>
+11) [Method findTaskListCto in Class UcFindTaskListImpl is missing access control] expected:<[tru]e> but was:<[fals]e>
+at PermissionCheckTest.permissionCheckAnnotationPresent(PermissionCheckTest.java:60) expected:<[tru]e> but was:<[fals]e>
+12) [Method findTaskListCtos in Class UcFindTaskListImpl is missing access control] expected:<[tru]e> but was:<[fals]e>
+at PermissionCheckTest.permissionCheckAnnotationPresent(PermissionCheckTest.java:60) expected:<[tru]e> but was:<[fals]e>
+13) [Method customTaskList in Class UcCustomTaskListImpl is missing access control] expected:<[tru]e> but was:<[fals]e>
+at PermissionCheckTest.permissionCheckAnnotationPresent(PermissionCheckTest.java:60) expected:<[tru]e> but was:<[fals]e>
+
+	at com.capgemini.tasklist.general.common.base.PermissionCheckTest.permissionCheckAnnotationPresent(PermissionCheckTest.java:65)
+

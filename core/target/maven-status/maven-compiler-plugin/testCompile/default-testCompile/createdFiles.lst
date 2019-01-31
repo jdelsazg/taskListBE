@@ -1,0 +1,11 @@
+com\capgemini\tasklist\general\service\base\test\RestServiceTest.class
+com\capgemini\tasklist\general\common\base\test\DbTestHelper.class
+com\capgemini\tasklist\general\common\base\test\TestUtil.class
+com\capgemini\tasklist\general\common\base\test\ApplicationComponentTest.class
+com\capgemini\tasklist\general\common\impl\config\TestWebSecurityConfig.class
+com\capgemini\tasklist\general\common\base\test\ApplicationSubsystemTest.class
+com\capgemini\tasklist\general\common\base\Devon4jPackageCheckTest.class
+com\capgemini\tasklist\general\common\base\PermissionCheckTest$1.class
+com\capgemini\tasklist\general\common\base\PermissionCheckTest.class
+com\capgemini\tasklist\general\common\base\test\AccessControlSchemaXmlValidationTest.class
+com\capgemini\tasklist\general\service\impl\rest\SecurityRestServiceImplTest.class

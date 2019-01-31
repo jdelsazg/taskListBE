@@ -1,0 +1,11 @@
+CREATE TABLE List(
+	id BIGINT NOT NULL AUTO_INCREMENT,
+	modificationCounter INTEGER NOT NULL,
+	name VARCHAR(255) NOT NULL,
+	creationDate TIMESTAMP,
+	active BOOL NOT NULL DEFAULT '1',
+	orderList INTEGER NOT NULL,
+	id_listas BIGINT NOT NULL,
+	CONSTRAINT PK_List PRIMARY KEY(id),
+	CONSTRAINT FK_List_idTaskList FOREIGN KEY(id_listas) REFERENCES TaskList(id)
+);
